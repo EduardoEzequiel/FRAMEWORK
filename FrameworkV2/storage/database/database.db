@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+    /**
+     *  Options (myslq, sqllite)
+     * 
+     * 
+     */
+
+     'drive' => 'sqlite',
+
+     'sqlite' => [ 
+
+        'host' => 'database.db'
+        // 'charset' => 'utf8',
+        // 'collation' => 'utf8_unicode_ci'
+     ],
+
+     'mysql' => [
+         'host'=> 'smartnxmysql.ctwir4ipvf9b.us-east-1.rds.amazonaws.com',
+         'database'=> 'nx_multicanal_homologacao',
+         'user'=> 'smartnx',
+         'password'=> 'pLV676L4VPmut94S',
+         'charset' => 'utf8',
+         'collation' => 'utf8_unicode_ci'
+     ]
+
+];
+
+
+
+?>

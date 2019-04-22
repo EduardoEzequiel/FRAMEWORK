@@ -1,0 +1,11 @@
+
+<?php $this->getPageTitle(); ?>
+
+<?php foreach ($this->view->posts as $post){ ?>
+
+    <tr>
+     <td><?php echo $post['id']?> </td>
+     <td><?php echo $post['nome']?> </td>
+   </tr>
+
+<?php } ?>

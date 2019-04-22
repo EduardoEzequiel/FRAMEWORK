@@ -1,0 +1,10 @@
+Subir o servidor
+
+php -S localhost:8000 -t public
+
+
+//
+
+ZED
+
+O ZED é um micro-framework criado para melhorar a perfomace do seu desenvolvimento
